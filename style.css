@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Cormorant+Garamond:ital,wght@1,300&family=Playfair+Display:ital@1&family=Redressed&family=Rowdies:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* This aligns the items to the center of the page vertically */
+    justify-content: center; /* This justifys the content to the center horizontally */ 
+    min-height: 100vh; /* This formats the background image */
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 1rem;
+    text-shadow: 5px 10px 10px black;
+}
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-element {
+    text-align: center;
+}
+
+.countdown-element span {
+    font-size: 1.5rem;
+}
